@@ -1,0 +1,40 @@
+@-moz-document domain('infra-struktur.eu') {
+    .ifs-bottom-bar {
+        background-image: none;
+        background-color: rgba(0, 94, 153, 0.8) !important;
+    }
+    .ifs-top-bar {
+        background-image: none;
+        background-color: rgba(0, 94, 153, 0.8) !important;
+    }
+
+    .ifs-topbar-button:hover {
+        background-image: -webkit-linear-gradient(top, #D6F200, #9bb600);
+        border: 1px solid #B7D300;
+    }
+    .ifs-topbar-button.x-btn-pressed,
+    .ifs-topbar-button.x-btn-focus {
+        background-image: -webkit-linear-gradient(top, #D6F200, #9bb600) !important;
+        border: 1px solid #B7D300 !important;
+    }
+    .ifs-topbar-button .x-btn-inner-default-toolbar-medium {
+        color: #ffffff;
+    }
+    .ifs-topbar-button:hover .x-btn-inner-default-toolbar-medium {
+        color: #000000;
+    }
+    .ifs-toolbar-separator {
+        border-left: 1px solid #ffffff !important;
+    }
+    .fa-heartbeat {
+        color: rgb(229, 63, 139);
+        text-shadow: none;
+    }
+    .welcomeIcon {
+        width: 190px !important;
+        border: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 180px 29px;
+    }
+}
